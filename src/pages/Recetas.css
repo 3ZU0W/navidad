@@ -1,0 +1,38 @@
+.recetas-container .header h2 {
+    font-size: 3rem;
+    color: white;
+    padding: 0px;
+  }
+  
+  .accordion-container {
+    margin-bottom: 10px;
+  }
+  
+  .accordion-title {
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    padding: 0px;
+  }
+  
+  .accordion-item {
+    margin-bottom: 10px;
+  }
+
+  .accordion-body {
+    background-color: rgba(132, 160, 137, 0.74); 
+    color: rgb(255, 255, 255);
+  }
+  
+  .carousel-item img {
+    width: 100%; 
+    height: 200px;
+    object-fit: cover;  
+  }
+  
+  @media (max-width: 768px) {
+    .accordion-container {
+      margin-bottom: 15px;
+    }
+  }
+  

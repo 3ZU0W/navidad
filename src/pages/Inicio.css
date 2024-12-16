@@ -1,0 +1,43 @@
+.text-box {
+    background-color: #8b6e56;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+    width: 40%;
+    margin: -55px auto;
+    margin-bottom: 20px;
+  }
+  
+  .text-box h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .content-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  .carousel-container {
+    flex: 0 0 48%;
+  }
+  
+  .text-rectangle {
+    flex: 0 0 38%; 
+    background-color: rgba(255, 255, 255, 0.349); 
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    height: 500px; 
+    overflow-y: auto; 
+    font-size: 1.2rem;
+  }
+  .carousel-item img {
+    width: 100%;      
+    height: 480px;     
+    object-fit: cover;  
+  }
+  

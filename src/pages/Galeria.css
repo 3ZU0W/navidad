@@ -1,0 +1,29 @@
+.carousel-container {
+    margin-bottom: 30px;
+  }
+  
+  .carousel-title {
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  .carousel-item img {
+    width: 100%;  
+    height: 300px;  
+    object-fit: cover;  
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  @media (max-width: 768px) {
+    .carousel-container {
+      margin-bottom: 20px;
+    }
+    .row {
+      flex-direction: column;
+    }
+  }
+  

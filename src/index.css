@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.main-content {
+  background-image: url('./img/NAVIDAD2.webp'); 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 20px;
+  color: white; 
+}
+.container {
+  margin-top: 20px;
+}

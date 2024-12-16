@@ -1,0 +1,19 @@
+.footer-custom {
+    background-image: url('../img/footer.jpg'); /* Ruta de tu imagen */
+    background-size: contain; /* Ajusta la imagen dentro del contenedor sin recortarla */
+
+    background-repeat: no-repeat;
+    color: #6fa182; 
+    text-align: center;
+    font-weight: bold;
+    bottom:0px;
+    left: 0;
+    position: static;
+    width: 100%;
+  }
+  
+  .footer-custom p {
+    margin: 0;
+    padding: 25px;
+  }
+  
